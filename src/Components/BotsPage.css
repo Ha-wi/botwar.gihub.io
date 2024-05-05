@@ -1,0 +1,41 @@
+/* Style for the page container */
+.page-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Style for the bot collection and army container */
+  .bot-collection-container,
+  .bot-army-container {
+    flex: 1;
+  }
+  
+  /* Style for the bot collection */
+  .bot-collection {
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the bot army */
+  .bot-army {
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the title */
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 767px) {
+    .page-container {
+      flex-direction: column;
+    }
+    
+    .bot-collection-container,
+    .bot-army-container {
+      width: 100%;
+    }
+  }
+  

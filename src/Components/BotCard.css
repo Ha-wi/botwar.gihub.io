@@ -1,0 +1,77 @@
+/* Style for the card container */
+.ui.card {
+    background-color: #141212;
+    border: 1px solid #da1e1e;
+    border-radius: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .ui.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style for the image */
+  .image img {
+    width: 10%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  /* Style for the content */
+  .content {
+    padding: 20px;
+  }
+  
+  .header {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .meta {
+    color: #666;
+  }
+  
+  /* Style for the extra content */
+  .extra.content {
+    padding: 10px 20px;
+    background-color: #511e1e;
+    border-top: 1px solid #ddd;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  
+  .extra.content span {
+    margin-right: 10px;
+  }
+  
+  /* Style for the delete button */
+  .ui.basic.segment {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .ui.mini.red.button {
+    padding: 6px 12px;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .ui.mini.red.button:hover {
+    background-color: #bb2d3b;
+  }
+  
+  /* Style for bot type icons */
+  .icon {
+    margin-left: 100px;
+    color: #007bff;
+  }
+  
